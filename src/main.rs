@@ -1,13 +1,9 @@
-const TIPO_DE_DADO:i8 = 2;
-static UMA_VARIAVEL_STATIC:i8 = 3;
-
-
 fn main() {
-    println!("Constante: {}", TIPO_DE_DADO);
-    println!("Variável estática: {}", UMA_VARIAVEL_STATIC);
-    imprime();
-}
+    let numero = 7;
 
-fn imprime() {
-    println!("Constante: {}", TIPO_DE_DADO)
+    if numero < 5 {
+        println!("condição era verdadeira");
+    } else {
+        println!("condição era falsa");
+    }
 }
